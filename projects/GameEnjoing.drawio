@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:00:38.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="VsXvymRwd-3hh5t-ZxQq" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:06:37.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="GUsgFIZCutQlnycH-bEA" version="24.4.2" type="github">
   <diagram name="Page-1" id="S0XgtivN0bEylLzCPmx3">
-    <mxGraphModel dx="9000" dy="5832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7133" dy="4840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -680,7 +680,7 @@
           <mxGeometry x="9991.5" y="-999" width="1151" height="131" as="geometry" />
         </mxCell>
         <mxCell id="ZEd0vVKutlbedKHM8gJf-167" value="Игра" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="9992.5" y="-865" width="1151" height="131" as="geometry" />
+          <mxGeometry x="9990" y="-872" width="1151" height="131" as="geometry" />
         </mxCell>
         <mxCell id="ZEd0vVKutlbedKHM8gJf-168" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="9613" y="-352" width="1920" height="1080" as="geometry" />
