@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T07:06:37.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="GUsgFIZCutQlnycH-bEA" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T07:08:27.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="bhpR6-bvyhMpk6flGlwk" version="24.4.2" type="github">
   <diagram name="Page-1" id="S0XgtivN0bEylLzCPmx3">
-    <mxGraphModel dx="7133" dy="4840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11800" dy="7320" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -670,9 +670,6 @@
         <mxCell id="ZEd0vVKutlbedKHM8gJf-163" value="Фильтры" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="9990.5" y="-1394" width="1151" height="131" as="geometry" />
         </mxCell>
-        <mxCell id="ZEd0vVKutlbedKHM8gJf-164" value="Игра" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="9990.5" y="-1263" width="1151" height="131" as="geometry" />
-        </mxCell>
         <mxCell id="ZEd0vVKutlbedKHM8gJf-165" value="Игра" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="9990.5" y="-1130" width="1151" height="131" as="geometry" />
         </mxCell>
@@ -732,6 +729,9 @@
         </mxCell>
         <mxCell id="ZEd0vVKutlbedKHM8gJf-187" value="Добавить в играл" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10836" y="132" width="253" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ZEd0vVKutlbedKHM8gJf-188" value="Подобрать" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="9990" y="-1263" width="1151" height="136" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
