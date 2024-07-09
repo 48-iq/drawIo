@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T14:31:23.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="Q3qJTcnOe6ylWCh0fIvu" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-09T14:32:06.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="HPPrLOa-z7BcxI_yQsMK" version="24.6.4" type="github" pages="4">
   <diagram name="Services" id="48RCDCqVBAiewwTzaw0s">
     <mxGraphModel dx="1834" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BwiTvB0sV5Lzcz0Bvd66" name="GateWay">
-    <mxGraphModel dx="2593" dy="1004" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -622,7 +622,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PjBqgAR_-f3by69sY83h" name="QueryService">
-    <mxGraphModel dx="3034" dy="403" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4207" dy="1060" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
