@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-09T16:00:10.439Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="rQPrbrcCQvz32KDkKl_G" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-09T16:09:27.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="m7_MWxbfdpPOK-g8bQ9m" version="24.6.4" type="github" pages="4">
   <diagram name="Services" id="48RCDCqVBAiewwTzaw0s">
     <mxGraphModel dx="1834" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -619,7 +619,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PjBqgAR_-f3by69sY83h" name="QueryService">
-    <mxGraphModel dx="4787" dy="1384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3109" dy="445" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -831,16 +831,7 @@
         <mxCell id="YXiYF4OHta2FyzEZQaxh-43" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="YXiYF4OHta2FyzEZQaxh-40" target="YXiYF4OHta2FyzEZQaxh-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xFAZ6aOPkjT_sjI44MmJ-5" value="QueryValidationService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-355" y="1140" width="421" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="xFAZ6aOPkjT_sjI44MmJ-6" value="+ validateQuery(QueryCreateDto query)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="xFAZ6aOPkjT_sjI44MmJ-5">
-          <mxGeometry y="26" width="421" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="xFAZ6aOPkjT_sjI44MmJ-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="WKaHjMuAtVmBtH6MZGyF-50" target="xFAZ6aOPkjT_sjI44MmJ-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xFAZ6aOPkjT_sjI44MmJ-10" value="Query Service сохраняет запросы в бд" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xFAZ6aOPkjT_sjI44MmJ-10" value="&lt;div&gt;Query Service сохраняет запросы в бд, запрашивает данные из areaService и кидает запрос&amp;nbsp; в&amp;nbsp; брокер,getQueryInfo - возвращает состояние запроса из бд, при запросе результата если статус запроса в бд PROCESSING - выкидывается исключение, &lt;br&gt;&lt;/div&gt;&lt;div&gt;ResultService - слушает брокер, при получении ResultDto обновляет запрос в бд&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1307" y="1382" width="1926" height="281" as="geometry" />
         </mxCell>
         <mxCell id="OGe-p2MBVsDMWtVcGecL-1" value="Queries" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
