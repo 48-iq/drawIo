@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T18:09:02.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="a1d0qVxhB548oFEY9DAl" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-10T18:09:33.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="I3ebqhgZIjEhGMINcoel" version="24.6.4" type="github" pages="5">
   <diagram name="Services" id="48RCDCqVBAiewwTzaw0s">
     <mxGraphModel dx="1834" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,7 +280,7 @@
         <mxCell id="1JnaDzZsohGULvmvZzqh-10" value="+ void deleteUser() /users/{id} (delete)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1JnaDzZsohGULvmvZzqh-5" vertex="1">
           <mxGeometry y="112" width="537" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1JnaDzZsohGULvmvZzqh-9" value="+ UserInfoDto getUserInfo() /users/info/{id} (get) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1JnaDzZsohGULvmvZzqh-5" vertex="1">
+        <mxCell id="1JnaDzZsohGULvmvZzqh-9" value="+ UserInfoDto getUserInfo() /users/info (get) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="1JnaDzZsohGULvmvZzqh-5" vertex="1">
           <mxGeometry y="138" width="537" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qJt2XNAEtJpzvsFEx0jN-3" value="AdminController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -295,7 +295,7 @@
         <mxCell id="qJt2XNAEtJpzvsFEx0jN-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qJt2XNAEtJpzvsFEx0jN-3">
           <mxGeometry y="78" width="537" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="qJt2XNAEtJpzvsFEx0jN-6" value="+ UserInfoDto getUserInfo() /admin/users/info (get) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qJt2XNAEtJpzvsFEx0jN-3">
+        <mxCell id="qJt2XNAEtJpzvsFEx0jN-6" value="+ UserInfoDto getUserInfo() /admin/users/info/{id} (get) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qJt2XNAEtJpzvsFEx0jN-3">
           <mxGeometry y="86" width="537" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qJt2XNAEtJpzvsFEx0jN-8" value="+ Page&amp;lt;UserInfoDto&amp;gt; getAllUsersInfo(params: Integer page, Integer size)/admin/users/info (get)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qJt2XNAEtJpzvsFEx0jN-3">
